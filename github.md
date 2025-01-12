@@ -5,6 +5,7 @@ github 관련된 문서
 * 참고
     - https://gist.github.com/ihoneymon/652be052a0727ad59601
     - https://alwaysone.tistory.com/entry/Github-알아보기-마크다운을-사용하여-문서-작성하기
+    - https://inpa.tistory.com/entry/MarkDown-📚-마크다운-문법-💯-정리
 
 ## vscode 에서 github repository 생성
 1. vscode 에서 폴더 생성
@@ -41,3 +42,27 @@ github 관련된 문서
     - 기존 캐시가 있을 경우는 browser update가 안 될 수 있으니 다른 브라우저로 시도
 * 참고
     - https://brunch.co.kr/@topasvga/2278
+
+## github 이미지 업로드
+- git issue 로 이미지 업로드해서 링크 얻기
+    - https://velog.io/@www_1216/github-issue로-이미지-첨부하기
+
+## vscode replace regularexpress
+- 정규식 옵션 켜고
+- 묶을 것을 괄호()로 감싸서
+- $0 은 전체
+- $1, $2는 앞에서 부터 괄호 부분
+- 예
+```
+Find    (;)([a-z])
+Replace $1 $2
+```
+`200;font-` → `200; font-`
+- 참고
+    - https://jojoldu.tistory.com/555
+
+
+
+
+## github로 블로그 만든 사례
+https://github.com/always0ne/always0ne.github.io/blob/master/_pages/GitHub.md?plain=1
